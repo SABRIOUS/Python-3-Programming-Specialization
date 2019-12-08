@@ -1,15 +1,25 @@
 import turtle
 
 wn = turtle.Screen()
+
 ahmed = turtle.Turtle()
-ahmed.color("blue")
-ahmed.shape("turtle")
+wn.bgcolor("black")
+# Make the width thicker so that the line will be easier to see
+ahmed.width(5)
+# Move back without drawing anything
 ahmed.penup()
-for i in range(50):
+ahmed.back(140)
+ahmed.pendown()
+
+# Draw three red lines, with space in between
+ahmed.color("red")
+for colors in ["red", "orange", "yellow"]:
+    ahmed.color(colors)
     ahmed.forward(50)
-    ahmed.stamp()
-    ahmed.right(-50)
-    ahmed.right(36)
+    ahmed.penup()
+    ahmed.forward(50)
+    ahmed.pendown()
+
 
 
 wn.exitonclick()
