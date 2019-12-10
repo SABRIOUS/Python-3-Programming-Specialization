@@ -15,7 +15,7 @@ ahmed.pendown()
 ahmed.color("red")
 for colors in ["red", "orange", "yellow"]:
     ahmed.color(colors)
-    ahmed.forward(50)
+    ahmed.forward(100)
     ahmed.penup()
     ahmed.forward(50)
     ahmed.pendown()
