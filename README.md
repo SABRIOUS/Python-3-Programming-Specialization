@@ -8,8 +8,6 @@
   <ol>
     <ul>
     <h2><a href="#">Python Basics</a><br></h2>
-
-
       <h2><a href="#">Python Functions, Files, and Dictionaries</a><br></h2>
     </ul>
   </ol>
