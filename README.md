@@ -8,8 +8,8 @@
   <h1 style="color:red">Python 3 Programming Specialization<h1>
   <ol>
     <ul>
-      <a href="#">Python Basics</a>
-      <a href="#">Python Functions, Files, and Dictionaries</a>
+      <a href="#">Python Basics</a><br>
+      <a href="#">Python Functions, Files, and Dictionaries</a><br>
     </ul>
   </ol>
 
